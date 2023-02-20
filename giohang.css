@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1400px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+}
+.logo>img{
+    width: 150px;
+    height: 100px;
+    color: rgb(216, 142, 30);
+}
+.timkiem{
+    margin-left: 80px;
+    margin-top: 35px ;
+}
+.timkiem>form>input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+.timkiem>form>button{
+    height: 30px;
+    margin-left: 10px;
+    width: 70px;
+    background-color: rgb(216, 142, 30);
+    color: white;
+}
+.acc{
+    margin-left: 250px;
+    margin-top: 41px;
+
+}
+
+.acc>ul>li{
+    display: inline;  
+    margin-left: 10px;
+}
+.acc>ul>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.acc>ul>li>a:hover{
+    color: rgb(216, 142, 30);
+}
+.traitim{
+    margin-top: 30px;
+    margin-left: 95px;
+    color: rgb(216, 142, 30);
+}
+.traitim>p{
+    font-size: 30px;
+}
+.giohang{
+    margin-top: 30px;
+    margin-left: 128px;
+    
+
+}
+.giohang>a>img{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+}
+.banner{
+    margin-top: 10px;
+}
+.banner>img{
+    width: 100%;
+}
+.menu-1{
+    width: 100%;
+    height: 30px;
+    /* background-color: cadetblue; */
+    
+}
+.menu-1>ul>li{
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.menu-1>ul{
+    text-align: center;
+    
+    padding-top: 7px;
+    
+}
+.menu-1>ul>li>a{
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.menu-1>ul>li>a:hover{
+    color: rgb(216, 142, 30);
+    font-weight: bold;
+}
+a{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+.than{
+    margin-bottom: 50px;
+    
+}
+h1{
+    
+    text-align: center;
+    color: rgb(192, 50, 45);
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 15px;
+}
+.footer>p{
+    padding-top: 10px;
+    color: rgb(216, 142, 30);
+    line-height: 20px;
+}

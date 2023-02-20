@@ -1,0 +1,144 @@
+@media (max-width:390px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 390px;
+    }
+    .header{
+        display: flex;
+    }
+    .header>.logo{
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .header>.logo>img{
+        width: 60px;
+        height: 50px;
+    }
+    .banner>img{
+        width: 100%;
+    }
+    .header>.timkiem{
+        margin-left: 10px;
+        width: 100px;
+        margin-top: 35px;
+    }
+    .header>.timkiem>form{
+        
+        width: 220px;
+        
+    }
+    .timkiem>form>input{
+        width: 50px;
+        height: 20px;
+    }
+    .timkiem>form>button{
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+        margin-left: 0px;
+        
+    }
+
+    .acc{
+        
+       
+        margin-top: 35px;
+        margin-left: 0;
+
+
+    }
+    .acc>ul{
+        margin-left: 30px;
+        width: 84px;
+        display: flex;
+        
+    }
+    .acc>ul>li{
+        margin-left: 7px;
+        width: 35px;
+        
+    }
+    .acc>ul>li>a{
+        font-size: 13px;
+        text-decoration: none;
+        color: black;
+        padding: 0;
+
+    }
+    .acc>ul>li>a:hover{
+        font-weight: bold;
+        color: blueviolet;
+    }
+    .traitim{
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+    .traitim>p{
+        font-size: 25px;
+    }
+    .giohang{
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+
+    .giohang>a>img{
+        width: 35px;
+        height: 25px;
+    }
+    .menu{
+        margin-top: 20px;
+    }
+    .menu-1>ul>li{
+         display: inline;
+         margin-left: 5px;
+         margin-right: 5px;
+    }
+    .menu-1>ul>li>a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu-1>ul{
+        text-align: center;
+    }
+    .menu-1>ul>li>a:hover{
+        font-weight: bold;
+        color: blueviolet;
+    }
+    marquee{
+        font-size: 14px;
+    }
+    .than>.than-1>h2{
+        text-align: center;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .sanpham-1>.sanpham1-1>.anhsanpham1-1>img{
+        width: 30%;
+    }
+    .sanpham1-1{
+        width: 200%;
+    }
+    .anhsanpham1-1{
+        width: 60%;
+        margin-right: 0;
+    }
+    .sanpham-1>.sanpham1-1>.textsanpham1-1>a{
+        font-size: 13px;
+    }
+    .textsanpham1-1{
+        width: 50%;
+    }
+    .sanpham-1{
+        display: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer{
+        width: 100%;
+        height: 100px;
+    }
+
+}

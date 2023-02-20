@@ -1,0 +1,178 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+.header{
+    display: flex;
+}
+
+.logo>img{
+    width: 150px;
+    height: 100px;
+    color: rgb(216, 142, 30);
+}
+.timkiem{
+    margin-left: 80px;
+    margin-top: 35px ;
+}
+.timkiem>form>input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+.timkiem>form>button{
+    height: 30px;
+    margin-left: 10px;
+    width: 70px;
+    background-color: rgb(216, 142, 30);
+    color: white;
+}
+.acc{
+    margin-left: 250px;
+    margin-top: 41px;
+
+}
+
+.acc>ul>li{
+    display: inline;  
+    margin-left: 10px;
+}
+.acc>ul>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
+}
+.acc>ul>li>a:hover{
+    color: rgb(216, 142, 30);
+}
+.traitim{
+    margin-top: 30px;
+    margin-left: 95px;
+    color: rgb(216, 142, 30);
+}
+.traitim>p{
+    font-size: 30px;
+}
+.giohang{
+    margin-top: 30px;
+    margin-left: 128px;
+    
+
+}
+.giohang>a>img{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+}
+.banner{
+    margin-top: 10px;
+}
+.banner>img{
+    width: 100%;
+}
+
+.menu-1{
+    width: 100%;
+    height: 30px;
+    
+    
+ } 
+ .menu-1>ul>li{
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.menu-1>ul{
+    text-align: center;
+    
+    padding-top: 7px;
+    
+}
+.menu-1>ul>li>a{
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.menu-1>ul>li>a:hover{
+    color: rgb(216, 142, 30);
+    font-weight: bold;
+}
+a{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.than>h1{
+    text-align: center;
+    color: tan;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textsanpham1-1>p>a:hover{
+    color: darkgoldenrod;
+}
+.sanpham-1{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    text-align: center;
+    
+}
+.textsanpham1-1>button{
+    margin-top: 10px;
+    width: 140px;
+    height: 30px;
+    background-color: bisque;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+}
+.textsanpham1-1>button:hover{
+    color: blueviolet;
+    background: brown;
+}
+.sanpham1-1{
+    width: 335px;
+
+}
+.anhsanpham1-1>img{
+    width: 335px;
+    transition: linear 2s;
+}
+.anhsanpham1-1>img:hover{
+    transform: scale(1.1,1.1);
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 15px;
+}
+.footer>p{
+    padding-top: 10px;
+    color: rgb(216, 142, 30);
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    
+} 
+span{
+    color: red;
+}
